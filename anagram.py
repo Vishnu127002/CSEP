@@ -4,12 +4,12 @@ str2_dict={}
 str1_dict={}
 for i in a:
     print(i)
-    r=l.count(i)
+    r=a.count(i)
     print(r)
     if i not in str1_dict:
         str1_dict[i]=r
 for j in b:
-    s=m.count(j)
+    s=b.count(j)
     if j not in str2_dict:
         str2_dict[j]=s
 print(str1_dict)
