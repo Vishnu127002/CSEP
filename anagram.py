@@ -3,9 +3,7 @@ b=str(input("Enter the input str2:"))
 str2_dict={}
 str1_dict={}
 for i in a:
-    print(i)
     r=a.count(i)
-    print(r)
     if i not in str1_dict:
         str1_dict[i]=r
 for j in b:
